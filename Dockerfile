@@ -15,4 +15,4 @@ RUN mkdir -p /home/docker/.embulk/bin \
   && wget -q -O /home/docker/.embulk/bin/embulk https://dl.embulk.org/embulk-latest.jar \
   && chmod +x /home/docker/.embulk/bin/embulk
 
-
+CMD ["/home/docker/.embulk/bin/embulk"]
